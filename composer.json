@@ -1,0 +1,25 @@
+{
+  "name": "gorgo13/migration-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "keywords": [],
+  "homepage": "http://migration.gorgo.in",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Nikita Makarov",
+      "email": "mesaverde228@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4",
+    "oro/platform": ">=2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Gorgo\\Bundle\\MigrationBundle": ""
+    }
+  },
+  "target-dir": "Gorgo/Bundle/MigrationBundle"
+}

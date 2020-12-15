@@ -1,0 +1,2 @@
+bundles:
+    - { name: Gorgo\Bundle\MigrationBundle\GorgoMigrationBundle, priority: 9999 }

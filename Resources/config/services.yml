@@ -1,0 +1,5 @@
+services:
+    gorgo_migration.locator.fixture_path_locator:
+        parent: 'oro_migration.locator.fixture_path_locator'
+        decorates: 'oro_migration.locator.fixture_path_locator'
+        class: Gorgo\Bundle\MigrationBundle\Locator\FixturePathLocator
